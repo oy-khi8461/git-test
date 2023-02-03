@@ -4,7 +4,7 @@ import useHook from "../customHook";
 const TestComponent = () => {
   const { test, setTest } = useHook();
 
-  console.log("test component--3-", test);
+  console.log("test component--1-", test);
 
   return (
     <button
