@@ -5,7 +5,7 @@ import useHook from "./customHook";
 function App() {
   const { test } = useHook();
 
-  console.log("App--1-", test);
+  console.log("App--2-", test);
 
   return (
     <div className="App">
